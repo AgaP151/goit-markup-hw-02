@@ -19,16 +19,30 @@
   cursor: pointer;
   background-color: var(--blue-color);
   color: var(--button-text-color);
-  border: 1px solid black;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
   line-height: 1.88;
+  border-radius: 5px 5px;
+  border-style: 5px var(--black-color);
 }
-.button:hover {
-  background-color: rgb(5, 56, 165);
+
+.button-portfolio {
+  cursor: pointer;
+  background-color: var(--team-section-color);
+  color: var(--body-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.88;
+  border-radius: 5px 5px;
+  border-style: 5px var(--black-color);
+}
+.button-portfolio:hover {
+  background-color: var(--blue-color);
+  color: var(--button-text-color);
 }
 .logo {
   color: var(--blue-color);
@@ -53,7 +67,7 @@
   line-height: 1.14;
 }
 .navigation:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .nav-phone {
@@ -64,22 +78,26 @@
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  list-style-type: square;
 }
 .nav-phone:hover {
-  color: purple;
-}
-
-.nav-mail {
   color: var(--blue-color);
+}
+.nav-mail {
+  color: #757575;
   text-decoration: none;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  list-style: none;
 }
 .nav-mail:hover {
-  background-color: rgb(5, 56, 165);
+  color: var(--blue-color);
+}
+.inline {
+  list-style: none;
 }
 
 .text {
@@ -153,6 +171,8 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.7;
+  list-style: none;
+  font-style: normal;
 }
 .footer-address:hover {
   color: #2196f3;
@@ -166,9 +186,10 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.7;
+  font-style: normal;
 }
 .footer-mail:hover {
-  background-color: rgb(5, 56, 165);
+  color: var(--blue-color);
 }
 
 .footer-phone {
@@ -180,6 +201,7 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.7;
+  font-style: normal;
 }
 .footer-phone:hover {
   color: #2196f3;
